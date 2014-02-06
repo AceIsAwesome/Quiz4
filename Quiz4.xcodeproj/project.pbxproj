@@ -20,6 +20,9 @@
 		87870DD318A427ED00B2785A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87870DB418A427ED00B2785A /* Foundation.framework */; };
 		87870DDB18A427ED00B2785A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87870DD918A427ED00B2785A /* InfoPlist.strings */; };
 		87870DDE18A427ED00B2785A /* Quiz4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87870DDD18A427ED00B2785A /* Quiz4Tests.m */; };
+		87870DE918A4286C00B2785A /* Q4View.m in Sources */ = {isa = PBXBuildFile; fileRef = 87870DE818A4286C00B2785A /* Q4View.m */; };
+		87870DEC18A4289400B2785A /* Q4LeftController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87870DEB18A4289400B2785A /* Q4LeftController.m */; };
+		87870DEF18A428AA00B2785A /* Q4RightController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87870DEE18A428AA00B2785A /* Q4RightController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,12 @@
 		87870DDA18A427ED00B2785A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		87870DDC18A427ED00B2785A /* Quiz4Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz4Tests.h; sourceTree = "<group>"; };
 		87870DDD18A427ED00B2785A /* Quiz4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz4Tests.m; sourceTree = "<group>"; };
+		87870DE718A4286C00B2785A /* Q4View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q4View.h; sourceTree = "<group>"; };
+		87870DE818A4286C00B2785A /* Q4View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q4View.m; sourceTree = "<group>"; };
+		87870DEA18A4289400B2785A /* Q4LeftController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q4LeftController.h; sourceTree = "<group>"; };
+		87870DEB18A4289400B2785A /* Q4LeftController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q4LeftController.m; sourceTree = "<group>"; };
+		87870DED18A428AA00B2785A /* Q4RightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q4RightController.h; sourceTree = "<group>"; };
+		87870DEE18A428AA00B2785A /* Q4RightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q4RightController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,12 @@
 		87870DA318A427ED00B2785A = {
 			isa = PBXGroup;
 			children = (
+				87870DE718A4286C00B2785A /* Q4View.h */,
+				87870DE818A4286C00B2785A /* Q4View.m */,
+				87870DEA18A4289400B2785A /* Q4LeftController.h */,
+				87870DEB18A4289400B2785A /* Q4LeftController.m */,
+				87870DED18A428AA00B2785A /* Q4RightController.h */,
+				87870DEE18A428AA00B2785A /* Q4RightController.m */,
 				87870DB818A427ED00B2785A /* Quiz4 */,
 				87870DD618A427ED00B2785A /* Quiz4Tests */,
 				87870DB118A427ED00B2785A /* Frameworks */,
@@ -262,6 +277,9 @@
 				87870DBF18A427ED00B2785A /* main.m in Sources */,
 				87870DC318A427ED00B2785A /* Quiz4AppDelegate.m in Sources */,
 				87870DC918A427ED00B2785A /* Quiz4ViewController.m in Sources */,
+				87870DE918A4286C00B2785A /* Q4View.m in Sources */,
+				87870DEC18A4289400B2785A /* Q4LeftController.m in Sources */,
+				87870DEF18A428AA00B2785A /* Q4RightController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

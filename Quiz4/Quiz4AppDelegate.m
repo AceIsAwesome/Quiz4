@@ -12,7 +12,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    UITabBarController *tabController = [[UITabBarController alloc] init];
+    
+    Q4LeftController *leftController = [[Q4LeftController alloc] initWithNibName:nil bundle:nil];
+    Q4RightController *rightController = [[Q4RightController alloc] initWithNibName:nil bundle:nil];
+    
+    NSArray *controllers = [NSArray arrayWithObjects:leftController,rightController, nil];
+    
+    [tabController setViewControllers:controllers];
+    
+    [self.window setRootViewController:tabController];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 							

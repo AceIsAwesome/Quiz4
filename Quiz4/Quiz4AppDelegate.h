@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Q4LeftController.h"
+#import "Q4RightController.h"
 
 @interface Quiz4AppDelegate : UIResponder <UIApplicationDelegate>
 
